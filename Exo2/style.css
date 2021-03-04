@@ -1,0 +1,26 @@
+.container{
+  border: solid blue 1px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rectangle{
+  border: solid blue 1px;
+  width: 15%;
+  height: 50px;
+  background-color: lightblue;
+}
+.rectangle p{
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+
+.container{
+  flex-wrap: wrap;
+}
+.rectangle{
+  width: 18%;
+  padding: 20px 30px;
+}
+}
